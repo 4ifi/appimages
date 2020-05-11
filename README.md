@@ -16,7 +16,7 @@ $ ./script.sh
 ## How to download AppImages:
 [Go to releases](https://github.com/4ifi/appimages/releases)
 
-## How to run AppImage:
+## How to run AppImages:
 
 ```bash
 $ sudo apt install fuse -y
@@ -24,7 +24,7 @@ $ chmod +x AppImage
 $ ./AppImage
 ```
 
-## How to make AppImage fully portable:
+## How to make AppImages fully portable:
 
 ```bash
 $ ./AppImage --appimage-portable-home
