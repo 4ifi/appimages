@@ -19,6 +19,7 @@ $ ./script.sh
 ## How to run AppImage:
 
 ```bash
+$ sudo apt install fuse -y
 $ chmod +x AppImage
 $ ./AppImage
 ```
