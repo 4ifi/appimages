@@ -1,4 +1,5 @@
 # download SuperTuxKart with dependencies
+sudo apt update
 sudo apt install curl fuse tar xz-utils
 date=$(date +"%x %R:%S")
 mkdir "SuperTuxKart AppImage $date"
