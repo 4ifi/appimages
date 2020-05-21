@@ -1,6 +1,6 @@
 # download SRB2 with dependencies
 sudo apt update
-sudo apt install git gcc cmake curl p7zip-full build-essential nasm fuse libupnp-dev libcurl4-openssl-dev zlib1g-dev libgme-dev libopenmpt-dev libsdl2-dev libpng-dev libsdl2-mixer-dev -y
+sudo apt install git gcc cmake curl p7zip-full build-essential nasm fuse libupnp-dev libgl1-mesa-dev libcurl4-openssl-dev zlib1g-dev libgme-dev libopenmpt-dev libsdl2-dev libpng-dev libsdl2-mixer-dev -y
 date=$(date +"%x %R:%S")
 mkdir "SRB2 AppImage $date"
 cd "SRB2 AppImage $date"
