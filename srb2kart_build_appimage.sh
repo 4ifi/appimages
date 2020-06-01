@@ -8,8 +8,6 @@ git clone https://github.com/STJr/Kart-Public
 cd Kart-Public
 tag=$(git describe --tags $(git rev-list --tags --max-count=1))
 version=$(curl -s https://api.github.com/repos/STJr/Kart-Public/releases/latest | grep "tarball_url" | sed 's/^.*Kart_Public_//' | sed 's/[^0-9]*//g')
-curl --retry 9999 --retry-delay 3 --speed-time 10 --retry-max-time 0 -C - -L https://github.com/STJr/Kart-Public/commit/3f3cb2c97637cff11f0f67e2ee84e8b28258c188.patch -o fix.patch
-patch -p1 < fix.patch
 mkdir tmp
 mkdir assets/installer
 cd tmp
