@@ -40,6 +40,7 @@ EOF
 # Get app icon
 #cp ../src/sdl/SRB2Pandora/icon.png .
 touch icon.png
+
 # create app entrypoint
 echo -e \#\!$(dirname $SHELL)/sh >> AppDir/AppRun
 echo -e 'HERE="$(dirname "$(readlink -f "${0}")")"' >> AppDir/AppRun
