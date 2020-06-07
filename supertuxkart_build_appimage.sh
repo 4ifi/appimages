@@ -31,7 +31,8 @@ Categories=Game;
 EOF
 
 # Get app icon
-cp AppDir/data/supertuxkart_128.png icon.png
+#cp AppDir/data/supertuxkart_128.png icon.png
+touch icon.png
 
 # create app entrypoint
 echo -e \#\!$(dirname $SHELL)/sh >> AppDir/AppRun
