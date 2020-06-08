@@ -38,8 +38,7 @@ Categories=Game;
 EOF
 
 # Get app icon
-#cp ../src/sdl/SRB2Pandora/icon.png .
-touch icon.png
+cp ../src/sdl/SRB2Pandora/icon.png .
 
 # create app entrypoint
 echo -e \#\!$(dirname $SHELL)/sh >> AppDir/AppRun
